@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Serif;
+    position: relative;
+}
+
+nav {
+    position: relative;
+    top: 20px;
+}
+
+nav, a{
+    color: #373737;
+}
+
+.nav_left {
+    display: inline;
+    position: absolute;
+    left: 15px;
+}
+
+.about {
+    margin-left:15px;
+}
+
+
+.nav_right {
+    display: inline;
+    position: absolute;
+    right: 15px;
+}
+
+.sign_in_form {
+    display: inline;
+}
+
+.sign_in {
+    margin-right:15px;
+    background-color: #0483ff;
+    color: white;
+}
+
+.main {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 0px auto;
+}
+
+form {
+    position: relative;
+    text-align: center;
+}
+
+.search_bar {
+    display: block;
+    position: center;
+    height: 36px;
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 5px, 5px, 5px;
+    margin: 10px auto;
+}
+
+.search_button {
+    height: 40px;
+    width: 175px;
+    background-color: #F6F6F6;
+    border: 0;
+    border-radius: 8px;
+    color: #5d5d5d;
+}
+
+.button {
+    height: 40px;
+    border: 0;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #F6F6F6;
+    position: absolute;
+    bottom: 0px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #d0d0d0;
+}
+
+footer a {
+    color: #5d5d5d;
+}
+
+.footer_left {
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 15px;
+    bottom: 45%;
+}
+
+.advertising {
+    margin-left:15px;
+}
+
+
+.footer_right {
+    display: inline;
+    position: absolute;
+    right: 15px;
+    bottom: 45%;
+}
+
+.settings {
+    margin-right:15px;
+}
+
+
+.link {
+    font-size: 12px;
+    vertical-align: center;
+    margin: 0 15px;
+}
+
+.link:hover {
+
+}
